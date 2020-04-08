@@ -26,8 +26,9 @@ time, mark, audio, video {
 
 
 :root {
-    --background-color: #00413C;
-    --dark: #002623;
+    --background-color: #055D56;
+    --dark-extra: #002623;
+    --dark: #00413C;
     --light: #019086;
   }
 
@@ -74,15 +75,15 @@ nav ul li {
     padding: 10px 20px 10px 20px;
     margin: 0px 10px 0px 10px;
     background-color: var(--dark);
-    border-radius: 20px;
+    border-radius: 5px;
     color: var(--light);
     border: 2px solid var(--dark);
 }
 
 nav ul li:hover {
-    background-color: var(--background-color);
+    background-color: var(--dark-extra);
     color: var(--light);
-    border: 2px solid var(--dark);
+    border: 2px solid var(--dark-extra);
 }
 
 article {
@@ -120,4 +121,5 @@ footer {
     font-size: 0.7em;
     text-align: center;
     padding: 1%;
+    color: var(--dark);
 }
