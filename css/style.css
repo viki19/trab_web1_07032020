@@ -26,9 +26,9 @@ time, mark, audio, video {
 
 
 :root {
-    --background-color: #585858;
-    --dark: #303030;
-    --light: #d3d3d3;
+    --background-color: #00413C;
+    --dark: #002623;
+    --light: #019086;
   }
 
 body {
@@ -40,7 +40,7 @@ body {
 }
 
 header {
-    border-bottom: 2px solid #303030;
+    border-bottom: 2px solid var(--dark);
     padding: 1% 0;
 }
 
