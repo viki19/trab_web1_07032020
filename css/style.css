@@ -36,7 +36,7 @@ body {
     background-color: var(--background-color);
     margin: 2% 1% 1% 1%;
     font-size: 16px;
-    color: #000;
+    color: white;
 }
 
 header {
