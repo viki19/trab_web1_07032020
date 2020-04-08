@@ -1,0 +1,122 @@
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+
+ /* -------CSS RESET END ---------- */
+
+
+
+:root {
+    --background-color: #585858;
+    
+  }
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: var(--background-color);
+    margin: 2% 1% 1% 1%;
+    font-size: 16px;
+    color: #000;
+}
+
+header {
+    border-bottom: 2px solid #303030;
+    padding: 1% 0;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    color: ##303030;
+    text-align: left;
+    text-transform: uppercase;
+    font-size: 2em;
+}
+
+article {
+    display: flex;
+    border-bottom: 2px solid #303030;
+    
+}
+
+section {
+    width: 25%;
+    margin: 20px;
+    padding: 20px;
+    border-left: 1px solid #303030;
+}
+
+section:first-child {
+    border-left: none;
+} 
+
+section h2 {
+    font-size: 0.8em;
+    font-weight: 800;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+}
+
+section p {
+    font-size: 1em;
+    padding-bottom: 20px;
+
+    
+}
+
+nav {
+    display: flex;
+    align-content: center;
+    border-bottom: 2px solid #303030;
+    padding: 1%;
+}
+
+nav ul {
+    box-align: center;
+    color: #303030;
+    text-decoration: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+ul li {
+    display: inline-flex;
+    padding: 10px 20px 10px 20px;
+    margin: 0px 10px 0px 10px;
+    background-color: #303030;
+    border-radius: 20px;
+    color: lightgray;
+    border: 2px solid #303030;
+}
+
+ul li:hover {
+    background-color: #585858;
+    color: white;
+    border: 2px solid #303030;
+}
+
+footer {
+    font-size: 0.7em;
+    text-align: center;
+    padding: 1%;
+}
