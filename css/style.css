@@ -27,7 +27,8 @@ time, mark, audio, video {
 
 :root {
     --background-color: #585858;
-    
+    --dark: #303030;
+    --light: #d3d3d3;
   }
 
 body {
@@ -52,9 +53,41 @@ h1 {
     font-size: 2em;
 }
 
+nav {
+    display: flex;
+    align-content: center;
+    border-bottom: 2px solid var(--dark);
+    padding: 1%;
+}
+
+nav ul {
+    box-align: center;
+    color: var(--dark);
+    text-decoration: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+nav ul li {
+    display: inline-flex;
+    padding: 10px 20px 10px 20px;
+    margin: 0px 10px 0px 10px;
+    background-color: var(--dark);
+    border-radius: 20px;
+    color: var(--light);
+    border: 2px solid var(--dark);
+}
+
+nav ul li:hover {
+    background-color: var(--background-color);
+    color: var(--light);
+    border: 2px solid var(--dark);
+}
+
 article {
     display: flex;
-    border-bottom: 2px solid #303030;
+    border-bottom: 2px solid var(--dark);
     
 }
 
@@ -62,7 +95,7 @@ section {
     width: 25%;
     margin: 20px;
     padding: 20px;
-    border-left: 1px solid #303030;
+    border-left: 1px solid var(--dark);
 }
 
 section:first-child {
@@ -81,38 +114,6 @@ section p {
     padding-bottom: 20px;
 
     
-}
-
-nav {
-    display: flex;
-    align-content: center;
-    border-bottom: 2px solid #303030;
-    padding: 1%;
-}
-
-nav ul {
-    box-align: center;
-    color: #303030;
-    text-decoration: none;
-    display: block;
-    margin-left: auto;
-    margin-right: auto
-}
-
-ul li {
-    display: inline-flex;
-    padding: 10px 20px 10px 20px;
-    margin: 0px 10px 0px 10px;
-    background-color: #303030;
-    border-radius: 20px;
-    color: lightgray;
-    border: 2px solid #303030;
-}
-
-ul li:hover {
-    background-color: #585858;
-    color: white;
-    border: 2px solid #303030;
 }
 
 footer {
